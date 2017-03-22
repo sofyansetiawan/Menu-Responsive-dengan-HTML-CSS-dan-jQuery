@@ -1,0 +1,165 @@
+/* 
+ * JuniorDev CSS jQuery Responsive Menu
+ * author : Sofyan Setiawan
+ */
+
+body{
+	background: #C9E6F0;
+	font-family: sans-serif;
+	padding: 0;
+	margin:0;
+}
+
+#menutop{
+	margin:0 auto;
+	width: 700px;
+	background: #fdfdfd; 
+}
+
+#menutop ul:after, #menutop ul:before{
+	display: table;
+	content: "";
+}
+
+#menutop ul:after{
+	clear:both;
+}
+
+#menutop li{
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+#menutop ul li:after, #menutop ul li:before{
+	display: table;
+	content: "";
+}
+
+#menutop ul li:after{
+	clear:both;
+}
+
+#menutop ul a.satu li{
+	background: rgba(210,255,82,1);
+	background: -moz-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: linear-gradient(135deg, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+}
+
+#menutop ul a.dua li{
+	background: rgba(147,206,222,1);
+background: -moz-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(135deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+#menutop ul a.tiga li{
+	background: rgba(241,231,103,1);
+background: -moz-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(135deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+#menutop ul a.empat li{
+	background: rgba(255,0,132,1);
+background: -moz-linear-gradient(-45deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,0,132,1)), color-stop(100%, rgba(255,0,132,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+background: linear-gradient(135deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ff0084', GradientType=1 );
+}
+
+#menutop ul a.lima li{
+	background: rgba(97,133,0,1);
+background: -moz-linear-gradient(-45deg, rgba(97,133,0,1) 0%, rgba(57,104,13,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(97,133,0,1)), color-stop(100%, rgba(57,104,13,1)));
+background: -webkit-linear-gradient(-45deg, rgba(97,133,0,1) 0%, rgba(57,104,13,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(97,133,0,1) 0%, rgba(57,104,13,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(97,133,0,1) 0%, rgba(57,104,13,1) 100%);
+background: linear-gradient(135deg, rgba(97,133,0,1) 0%, rgba(57,104,13,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#618500', endColorstr='#39680d', GradientType=1 );
+}
+
+#menutop a{
+	color: #fff;
+	font-size: 11px;
+}
+
+#menutop ul{
+	margin-left: -40px;
+}
+
+#menutop a:hover li{
+	box-shadow: 0px -4px 0px #fff inset;
+}
+
+#menutop li div{
+	margin: 5px;
+}
+
+#menutop li img{
+	width: 30px;
+	height: auto;
+}
+
+#menutop ul.nol a li{
+	background: rgba(71,71,71,1);
+background: -moz-linear-gradient(-45deg, rgba(71,71,71,1) 0%, rgba(69,69,69,1) 47%, rgba(66,66,66,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,71,71,1)), color-stop(47%, rgba(69,69,69,1)), color-stop(100%, rgba(66,66,66,1)));
+background: -webkit-linear-gradient(-45deg, rgba(71,71,71,1) 0%, rgba(69,69,69,1) 47%, rgba(66,66,66,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(71,71,71,1) 0%, rgba(69,69,69,1) 47%, rgba(66,66,66,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(71,71,71,1) 0%, rgba(69,69,69,1) 47%, rgba(66,66,66,1) 100%);
+background: linear-gradient(135deg, rgba(71,71,71,1) 0%, rgba(69,69,69,1) 47%, rgba(66,66,66,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#424242', GradientType=1 );
+}
+
+#menutop ul.nol{
+	display: none;
+}
+
+@media (max-width: 768px){
+	#menutop{
+		width: 100%;
+	}
+	#menutop li{
+		width: 100%;
+	}
+	#menutop li div{
+		float: left;
+	}
+	#menutop a:hover li{
+		box-shadow: -4px 0px 0px #fff inset;
+	}
+	#menutop ul.nol{
+		display: block;
+	}
+	#menutop ul.nol a li{
+		margin-bottom: -15px;
+		margin-top: -15px; 
+	}
+	#menutop ul.nol1{
+		display: none;
+	}
+}
+
+@media (min-width: 769px){
+	#menutop ul.nol1{
+		display: block !important;
+	}
+}
